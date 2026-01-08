@@ -193,7 +193,7 @@ const Index = () => {
 
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <Tabs value={activeTab} onValueChange={setActiveTab} className="max-w-7xl mx-auto">
+          <Tabs defaultValue="catalog" value={activeTab} onValueChange={setActiveTab} className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-3xl md:text-4xl font-bold">Обучение</h2>
               <TabsList className="bg-white shadow-sm">
